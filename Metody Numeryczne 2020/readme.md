@@ -7,12 +7,11 @@ Metody Numeryczne 2020/2021
        2. Wprowadzenie do metod numerycznych ([link cz1](https://youtu.be/lDk0likNLbE), [link cz2](https://youtu.be/IoZVOLLZRoo)) (notatki do tych filmów będą dostępne po 5.10.2020)
     3. Reprezentacja liczb
        
-       1. Kod binarny
-       2. Stały przecinek
-       1. Zmienny przecinek
+       1. Kod binarny ([link](https://youtu.be/NXbW3B5rJug))
+       2. Liczby stało i zmienno przecinkowe ([link](https://youtu.be/cOyK6fr1n68))
     3. Elementy analizy numerycznej
        
-       3. Definicje błędów
+       3. Definicje błędów ([link](https://youtu.be/2C5XS-yOgHk))
        4. Błędy zaokrągleń
        4. Ocena algorytmów 
 
