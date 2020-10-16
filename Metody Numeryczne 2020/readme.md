@@ -12,12 +12,12 @@ Metody Numeryczne 2020/2021
     3. Elementy analizy numerycznej
        
        3. Definicje błędów ([link](https://youtu.be/2C5XS-yOgHk))
-       4. Błędy zaokrągleń
-       4. Ocena algorytmów 
+       4. Błędy zaokrągleń ([link](https://youtu.be/a_JCDkCHtRY))
+       4. Ocena algorytmów ([link](https://youtu.be/0KpN0bqv38c))
 
    1. Interpolacja wielomianowa
-      1. Wprowadzenie i wzór Lagrange’a
-      2. Wzór barycentryczny i interpolacja Czebyszewa
+      1. Wprowadzenie i wzór Lagrange’a ([link](https://))
+      2. Interpolacja Czebyszewa
       3. Zbieżność interpolacji
    2. Aproksymacja
         1. Wielomiany ortogonalne i szeregi wielomianów
