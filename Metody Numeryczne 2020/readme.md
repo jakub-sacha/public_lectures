@@ -16,7 +16,7 @@ Metody Numeryczne 2020/2021
        4. Ocena algorytmów ([link](https://youtu.be/0KpN0bqv38c))
 
    1. Interpolacja wielomianowa
-      1. Wstęp do interpolacji ([link](https://youtu.be/OgTJmGVWK50))
+      1. Wstęp do interpolacji ([link](https://youtu.be/5R8mM0RlqWg))
       2. Interpolacja Czebyszewa
       3. Zbieżność interpolacji
    2. Aproksymacja
