@@ -17,8 +17,8 @@ Metody Numeryczne 2020/2021
 
    1. Interpolacja wielomianowa
       1. Wstęp do interpolacji ([link](https://youtu.be/5R8mM0RlqWg))
-      2. Interpolacja Czebyszewa
-      3. Zbieżność interpolacji
+      2. Interpolacja Czebyszewa ([link](https://youtu.be/NWuXAGR6SVs))
+      3. Zbieżność interpolacji ([link](https://youtu.be/6fTu1xIO7GI))
    2. Aproksymacja
         1. Wielomiany ortogonalne i szeregi wielomianów
         2. Aproksymacja jednostajna
