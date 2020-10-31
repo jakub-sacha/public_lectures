@@ -20,7 +20,7 @@ Metody Numeryczne 2020/2021
       2. Interpolacja Czebyszewa ([link](https://youtu.be/NWuXAGR6SVs))
       3. Zbieżność interpolacji ([link](https://youtu.be/6fTu1xIO7GI))
    2. Aproksymacja
-        1. Wielomiany ortogonalne i szeregi wielomianów
+        1. Aproksymacja wielomianowa ([link](https://youtu.be/aBZmRPeHUHA))
         2. Aproksymacja jednostajna
         3. Funkcje sklejane
 1. Numeryczna algebra 
