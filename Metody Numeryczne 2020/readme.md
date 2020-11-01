@@ -21,7 +21,7 @@ Metody Numeryczne 2020/2021
       3. Zbieżność interpolacji ([link](https://youtu.be/6fTu1xIO7GI))
    2. Aproksymacja
         1. Aproksymacja wielomianowa ([link](https://youtu.be/aBZmRPeHUHA))
-        2. Aproksymacja jednostajna
+        2. Aproksymacja jednostajna ([link](https://youtu.be/L-kuPrTtdKc))
         3. Funkcje sklejane
 1. Numeryczna algebra 
    1. Preliminaria
