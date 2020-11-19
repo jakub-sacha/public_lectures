@@ -25,12 +25,12 @@ Metody Numeryczne 2020/2021
         3. Funkcje sklejane
 1. Numeryczna algebra 
    1. Preliminaria
-      1. Repetytorium z macierzy
-      2. Wektory i normy
-      3. SVD
+      1. Preliminaria z algebry liniowej ([link](https://youtu.be/ln122bpC6nI))
+      2. Normy wektorów i macierzy ([link](https://youtu.be/W1L_g-fJtLk))
+      3. SVD ([link](https://youtu.be/i7VF45mChDo))
    2. N równań z N niewiadomymi
-      1. Sformułowanie problemu
-      2. Rozkład LU
+      1. Sformułowanie problemu ([link](https://youtu.be/yuzYgeOlm1A))
+      2. Rozkład LU ([link](https://youtu.be/JgFaOkZl3aM))
       3. Rozkład Choleskiego
    3. N równań z M niewiadomymi
       1. Sformułowanie problemu
