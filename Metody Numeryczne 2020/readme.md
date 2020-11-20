@@ -31,7 +31,7 @@ Metody Numeryczne 2020/2021
    2. N równań z N niewiadomymi
       1. Sformułowanie problemu ([link](https://youtu.be/yuzYgeOlm1A))
       2. Rozkład LU ([link](https://youtu.be/JgFaOkZl3aM))
-      3. Rozkład Choleskiego
+      3. Rozkład Choleskiego ([link](https://youtu.be/USLjsk2VmLA))
    3. N równań z M niewiadomymi
       1. Sformułowanie problemu
       2. Rozkład QR
