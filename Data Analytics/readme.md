@@ -29,14 +29,16 @@ It is recommended to use your own laptop computers.
 
 Class work is realized in Python 3, in order to be able to work smoothly it is required (or at least strongly recommended) to install [Anaconda 3.7](https://www.anaconda.com/distribution/) and to ensure that you have up to date versions of following packages:
 
-- [PyStan](https://pystan.readthedocs.io/en/latest/) - installation requires bit of work
+- [PyStan](https://pystan.readthedocs.io/en/latest/) - installation requires bit of work or [CmdStanPy](https://cmdstanpy.readthedocs.io)
 - [Arviz](https://arviz-devs.github.io/arviz/)
 - [Matplotlib](https://matplotlib.org)
 - [pandas](https://pandas.pydata.org)
 - [NumPy](https://numpy.org)
 - [SciPy](scipy)
 
+
 For editing Stan code any text editor will be ok, syntax coloring is offered among the others by [Atom](https://atom.io) or [VSCode](https://code.visualstudio.com).
 
 It is strongly recommended to have a GitHub account and store your coursework in a repository (public or private).
 
+It is possible to do coursework in R and RStan. PyMC3 is not recommended for this course.
