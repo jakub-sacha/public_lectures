@@ -1,9 +1,8 @@
 # Excercise 1 
 
 ## Review of data wrangling and visualization in Python
--
 
-In this excercise we will familiarize ourselves with pandas, seaborn, and matplotlib package.
+In this excercise we will familiarize ourselves with pandas, and matplotlib package.
 
 Course of excercise:
 
