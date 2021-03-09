@@ -1,9 +1,6 @@
 
 # <center>laboratory 1<br>Computing methods</center>
 
-Instruction:
-All the exercises from the laboratory must be implemented in [Spyder] (https://www.spyder-ide.org/). The report must be sent in [Jupyter Notebook] (https://jupyter-notebook.readthedocs.io/en/stable/)
-
 <a id='zad1'></a>
 ***Exercies 1.***   
 Calculate:
