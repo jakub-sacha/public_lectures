@@ -126,17 +126,17 @@ print(results[n][name])
 ### Adding constraint to query
  Adding a restriction to a query involves entering the *where* function as follows:
  ```python
-stmt = select([table])
+stmt = select([	])
 
 # Add a where clause to filter the results
-stmt = stmt.where(category.columns.age == 10)
+stmt = stmt.where(table.columns.column_name == 10)
 
 # Execute the query to retrieve all the data returned: results
 results = db.execute(stmt).fetchall()
 
-# Loop over the results and print the age and name
+# Loop over the results and print the column_name_1 and column_name_2
 for result in results:
-    print(result.name, result.age)
+    print(result.column_name_1, result.column_name_2)
  ```
  
  
