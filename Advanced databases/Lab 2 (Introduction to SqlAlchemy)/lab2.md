@@ -153,7 +153,7 @@ For PostgreSql database structure are describe [here](https://www.postgresqltuto
 1. Find the oldest and youngest film in rental.
 1. Find all actor with a name: Olympia, Julia, Ellen. How can you check correction of your query?
 
-For MySQL database structure are describe [here](https://www.postgresqltutorial.com/postgresql-sample-database/):
+For MySQL database structure are describe [here](https://www.mysqltutorial.org/mysql-sample-database.aspx):
 1. Create a script to connection with database.
 1. Based on *information_schema*, present how to explore the relationships between the tables:
 	1. customers and employees
