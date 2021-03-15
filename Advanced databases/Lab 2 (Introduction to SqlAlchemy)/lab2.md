@@ -50,6 +50,14 @@ FROM information_schema.columns
 WHERE table_name = 'name' AND table_schema = 'public';
 ```
 
+and for MySQL [see](https://dev.mysql.com/doc/refman/8.0/en/getting-information.html):
+
+```sql
+SELECT table_name 
+FROM information_schema.tables 
+WHERE table_schema = 'bauer1'
+```
+
 Of course, SQLAlchemy has the function to read this data:
 
 ```python
@@ -132,17 +140,28 @@ for result in results:
  ```
  
  
- ## Exercises:
- 
-The exercise will be performed on a remote PostgreSql database located at pgsql-196447.vipserv.org:5432. Database structure are describe [here](https://www.postgresqltutorial.com/postgresql-sample-database/). Password and user will be given in class. Perform the following tasks:
+## Exercises:
+Write script to conection to databases and perform the following tasks: 
+
+For PostgreSql database structure are describe [here](https://www.postgresqltutorial.com/postgresql-sample-database/):
 1. Create a script to connection with database.
 1. Based on *information_schema*, present how to explore the relationships between the tables:
 	1. staff and country
-	2. actor, language, and film
-1. How many categories of films we have in the rental?
+	2. actor, language and film
+1. How many categories of films are in the rental?
 1. Display list of categories with limit 2.
-1.  Find the oldest and youngest film in rental.
+1. Find the oldest and youngest film in rental.
 1. Find all actor with a name: Olympia, Julia, Ellen. How can you check correction of your query?
+
+For MySQL database structure are describe [here](https://www.postgresqltutorial.com/postgresql-sample-database/):
+1. Create a script to connection with database.
+1. Based on *information_schema*, present how to explore the relationships between the tables:
+	1. customers and employees
+	2. customers, payments and orders
+1. How many products are in the store?
+1. Display list of offices with limit 5.
+1. Find the oldest and youngest payments in rental.
+
 
  
  
