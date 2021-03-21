@@ -122,46 +122,13 @@ USER = Table('users', MetaData(bind=engine), Column('id', Integer, primary_key =
 USER.create(engine)
 ```
 
-### Session and adding data to table
-
-In the most general sense, the [*Session*](https://docs.sqlalchemy.org/en/13/orm/session_basics.html#session-frequently-asked-questions) establishes all conversations with the database. To crate this mechanizm we use comment:
-
-```python
-from sqlalchemy.orm import sessionmaker
-
-Session = sessionmaker(bind=engine)
-session = Session()
-```
-
-After initialization section we can add data to database by script: 
-```python
-author1 = Author(name = 'William', surname = 'Shakespeare', born_date = '26.04.1564')
-author2 = Author(name = 'Albert', surname = 'Camus', born_date = '7.11.1913')
-
-session.add(author1)
-session.add(author2)
-
-session.commit()
-```
-or for many records:
-```python
-book1 = Book(id_author = 1 ,original_title = 'Hamlet', publication_date= 1603, original_language = 'english')
-book2 = Book(id_author = 1, original_title = 'King Lear', publication_date= 1606, original_language = 'english')
-book3 = Book(id_author = 2, original_title = 'La Peste', publication_date= 1947, original_language = 'french')
-
-records_list = [book1, book2, book3]
-
-session.add_all(records_list)
-
-session.commit()
-```
-Remember after all operation on a database in session you must commit or rollback change. 
-
 ## Exercise
 
-The [data directory](https://github.com/KAIR-ISZ/public_lectures/tree/master/Advanced%20databases/Lab%203%20(Creating%20database%20and%20normalization)/data_set) contains data sets in csv files. Suggest a 3NF database structure and describe it using SQLAlchemy.
+Based on the database schema:
+![db_db_Airbnb.png](db_Airbnb.png)
 
-Your individual data set has the number:
-```python
-(len(your_name) + len(your_surname))% 6
-```
+Implement the script to create this database in the local installation
+- MySQL
+- PostreSQL
+
+

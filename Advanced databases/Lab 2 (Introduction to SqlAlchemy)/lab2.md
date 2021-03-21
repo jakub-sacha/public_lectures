@@ -126,7 +126,7 @@ print(results[n][name])
 ### Adding constraint to query
  Adding a restriction to a query involves entering the *where* function as follows:
  ```python
-stmt = select([	])
+stmt = select([table])
 
 # Add a where clause to filter the results
 stmt = stmt.where(table.columns.column_name == 10)
