@@ -17,7 +17,7 @@ CREATE TABLE "places" (
   "id" integer PRIMARY KEY,
   "host_id" integer UNIQUE NOT NULL,
   "address" varchar,
-  "city_id" varchar
+  "city_id" integer
 );
 
 CREATE TABLE "reviews" (
