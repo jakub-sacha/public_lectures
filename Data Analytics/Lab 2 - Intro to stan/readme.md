@@ -10,7 +10,7 @@ L - number of letters in last name
 
 1. Compile code_1.stan and sample from it using N=F
 2. Create a pandas dataframe from resulting draws.
-3. Plot a histogram for each of theta and lambda
+3. Plot a histogram for each of y_sim and lambda
 
 ## Excercise 2 - constraints on the data
 ```code_2.stan```
