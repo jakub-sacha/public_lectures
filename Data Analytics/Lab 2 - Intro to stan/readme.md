@@ -8,7 +8,7 @@ L - number of letters in last name
 
 ![alt text](code_1.png)
 
-1. Compile code_1.stan and sample from it using N=F
+1. Compile code_1.stan and sample from it using M=F
 2. Create a pandas dataframe from resulting draws.
 3. Plot a histogram for each of y_sim and lambda
 
