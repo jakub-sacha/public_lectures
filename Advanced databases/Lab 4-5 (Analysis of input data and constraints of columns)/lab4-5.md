@@ -402,5 +402,12 @@ city_monuments.to_sql('monuments',engine, if_exists='append')
 
 ## Exercise
 
-To the created database schema from the previous laboratory, add constraints and insert the data.
+The [data directory](https://github.com/KAIR-ISZ/public_lectures/tree/master/Advanced%20databases/Lab%203%20(Creating%20database%20and%20normalization)/data_set) contains data sets in csv files. Suggest a 3NF database structure and describe it using SQLAlchemy. Create a database schema in  [dbdiagram](https://dbdiagram.io/). To the created database schema add constraints and insert the data.
+
+
+Your individual data set has the number:
+```python
+(len(your_name) + len(your_surname))% 6
+```
+
 
