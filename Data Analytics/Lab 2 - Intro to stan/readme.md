@@ -74,3 +74,19 @@ But specification can be even more detailed, and model can affect even individua
 
 1. Implement all the examples
 2. Use them to generate distributuion for N=F.
+
+
+### Excercise 6 - generated quantities post sampling
+
+Sometimes more than in parameters we are interested in their functions. 
+
+
+```code_10.stan```
+
+![alt text](code_10.png)
+
+Unfortunately, such interest can happen after we complete sampling which can be often time consuming. We can do such analysis in python or directly on samples, but cmdstan allows us to solve it in a different way. 
+
+1. Implement ```code_10.stan```
+2. Using generate_quantities() method use samples from previous excercises and and analyze mean of $y$.
+
