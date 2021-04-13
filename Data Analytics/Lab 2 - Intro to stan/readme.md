@@ -44,3 +44,33 @@ L - number of letters in last name
 
 1. Stan outside of sampling allows for certain computational tools. In particular equation solving.
 2. Using code_6 find the standard deviation of half_normal distribution, such that with 99% probability samples from it will be less than (F+L)/2.
+
+### Excercise 5 - different methods of defining models
+
+Stan models can be defined using sampling statements
+
+```code_7.stan```
+
+![alt text](code_7.png)
+
+However, what we really happens is that we are defining logarithm of the joint probability distribution, i.e.:
+
+$$
+\log p(\mu,\theta)=\log p(\mu|\theta)+\log p(\theta)
+$$
+
+Such declaration is done in the following way 
+
+
+```code_8.stan```
+
+![alt text](code_8.png)
+
+But specification can be even more detailed, and model can affect even individual coeeficients of vector parameters
+
+```code_9.stan```
+
+![alt text](code_9.png)
+
+1. Implement all the examples
+2. Use them to generate distributuion for N=F.
