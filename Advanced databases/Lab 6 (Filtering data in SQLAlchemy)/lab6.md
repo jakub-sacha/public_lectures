@@ -32,7 +32,7 @@ from sqlalchemy import create_engine, MetaData, Table
 metadata = MetaData()
 
 dic_table = {}
-for table_name in db.table_names():
+for table_name in engine.table_names():
     dic_table[table_name] = Table(table_name, metadata , autoload=True, autoload_with=engine)
 	
 print(repr(dic_table['category']))
@@ -82,7 +82,7 @@ from sqlalchemy import select
 
 mapper_stmt = select([dic_table['category']]).limit(10)
 print('Mapper select: ')
-print(stmt)
+print(mapper_stmt)
 
 session_stmt = session.query(Category)
 print('\nSession select: ')
@@ -102,7 +102,7 @@ As can be seen in the case of a query based on the class session, aliases are ad
 
 To run a query based on the select class:
 ```python
-mapper_results = db.execute(mapper_stmt).fetchall()
+mapper_results = engine.execute(mapper_stmt).fetchall()
 print(results)
 ```
 As a result of the script, we get a list of tuples representing the values of table rows. Examples:
@@ -177,7 +177,7 @@ We can also use logical conditions, such as::
 
 Example of use or_ and and_ in one query: 
 ```python
-from sqlalchemy import or_, and_, in_
+from sqlalchemy import or_, and_
 
 mapper_stmt = select([dic_table['category'].columns.category_id,dic_table['category'].columns.name]).\
 where(and_(\
