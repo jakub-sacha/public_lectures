@@ -17,9 +17,9 @@ model {
 
 generated quantities {
     vector[N] log_lik;
-    real mu_hat;
+    real y_hat[N];
     for (j in 1:N) {
-        log_lik[j] = student_t_lpdf(y[j]|nu,mu,sigma);
+      log_lik[j] = student_t_lpdf(y[j]|nu,mu,sigma);
+      y_hat[j] = student_t_rng(nu,mu,sigma);
     }
-    mu_hat = student_t_rng(nu,mu,sigma);
 }
