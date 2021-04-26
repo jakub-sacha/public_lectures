@@ -15,9 +15,9 @@ model {
 
 generated quantities {
     vector[N] log_lik;
-    real mu_hat;
+    real y_hat[N];
     for (j in 1:N) {
-        log_lik[j] = normal_lpdf(y[j] | mu, sigma);
+      log_lik[j] = normal_lpdf(y[j] | mu, sigma);
+      y_hat[j] = normal_rng(mu,sigma);
     }
-    mu_hat = normal_rng(mu,sigma);
 }

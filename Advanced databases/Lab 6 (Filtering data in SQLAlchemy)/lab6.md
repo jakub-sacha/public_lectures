@@ -66,7 +66,7 @@ If this does not suit us, we can of course run a query written by us:
 ```python 
 stmt = 'select * from category'
 
-results = db.execute(stmt).fetchall()
+results = engine.execute(stmt).fetchall()
 
 print(results)
 ```
@@ -80,7 +80,7 @@ from sqlalchemy import select
 
 # select * from category
 
-mapper_stmt = select([dic_table['category']]).limit(10)
+mapper_stmt = select([dic_table['category']])
 print('Mapper select: ')
 print(mapper_stmt)
 
