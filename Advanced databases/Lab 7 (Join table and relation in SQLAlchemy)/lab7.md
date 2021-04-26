@@ -94,7 +94,7 @@ As you can see, the join function creates queries that connect tables in a natur
 
 To download records for selected tables, modify the code as follows:
 ```python
-mapper_stmt = select([dic_table['city']]).select_from(dic_table['city'].join(dic_table['country'], dic_table['city'].c.country_id == dic_table['country'].c.country_id ))
+mapper_stmt = select([dic_table['city'],dic_table['country']]).select_from(dic_table['city'].join(dic_table['country'], dic_table['city'].c.country_id == dic_table['country'].c.country_id ))
 print('Mapper join: ')
 print(mapper_stmt)
 
@@ -138,7 +138,7 @@ dic_table['address'], dic_table['city'].c.city_id == dic_table['address'].c.city
 )
 
 session_stmt = session.query(Country,City,Address).\
-join(City, Country.country_id == City.city_id).\
+join(City, Country.country_id == City.country_id).\
 join(Address, Address.city_id == City.city_id)
 ```
 Replacing with the join() function, the outerjoin() function can be used.
