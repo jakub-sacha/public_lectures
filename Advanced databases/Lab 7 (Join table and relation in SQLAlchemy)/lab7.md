@@ -1,4 +1,4 @@
-# Filtering data in SQLAlchemy
+# Join table and relation in SQLAlchemy
 
 The purpose of these laboratory classes is to familiarize participants with join table in SQLAlchemy.
 
