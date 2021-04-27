@@ -155,15 +155,6 @@ git reset HEAD lista_plików_do_wycofania
 W celu przećwiczenia zagadnień z tego rozdziału opracuj zadania ze strony https://learngitbranching.js.org/:
 1. Main
 	1. Ramping Up
-	2. Moving Work Around
 2. Remote
 	1. Push & Pull -- Git Remotes!
-
-## Zadania dodatkowe
-W ramach dalszego rozwoju umiejętności zaleca się wykonanie zadań ze strony https://learngitbranching.js.org/:
-1. Main
-	1. A Mixed Bag
-	2. Advanced Topics
-2. Remote
-	1. To Origin And Beyond -- Advanced Git Remotes!
 
