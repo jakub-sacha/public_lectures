@@ -69,9 +69,9 @@ Po za możliwością wyszukiwani istnieje również opcja formatowania wyjścia,
 
 | Opcja       	| Opis                                                                  	|
 |-------------	|-----------------------------------------------------------------------	|
-| -p          	| Pokaż zmainy wprowadzoną przy każdym zatwierdzeniu.                   	|
+| -p          	| Pokaż zmiany wprowadzoną przy każdym zatwierdzeniu.                   	|
 | --stat      	| Pokaż statystyki dla plików zmodyfikowanych w każdym zatwierdzeniu.   	|
-| --shortstat 	| Wyświetla tylko uprostrzony --stat.                                   	|
+| --shortstat 	| Wyświetla tylko uproszczony --stat.                                   	|
 | --name-only 	| Pokaż listę plików zmodyfikowanych w zatwierdzeniu.                   	|
 | --graph     	| Wyświetl wykres ASCII gałęzi i scal historię obok danych wyjściowych. 	|
 | --pretty    	| Pokaż zatwierdzenia w innym formacie.                                 	|
@@ -132,7 +132,7 @@ i konkretnych plików wewnątrz nich:
 1. Porównaj zmiany w pliku README.md po między pierwszą i ostatnią rewizją.
 
 ## Cofanie zmian zatwierdzonych i niezatwierdzonych 
-Często zdarza się, że dokonaliśmy zmian w projekcie które chlelibyśmy cofnąć. Git umożliwia nam to na kilku płaszczyznach: plików, rewizji oraz poczekalni.
+Często zdarza się, że dokonaliśmy zmian w projekcie które chcielibyśmy cofnąć. Git umożliwia nam to na kilku płaszczyznach: plików, rewizji oraz poczekalni.
 
 W przypadku plików jeżeli dokonaliśmy zmian i chcemy je cofnąć tylko w tym pliku możemy posłużyć się poleceniem:
 ```git checkout -- nazwa_pliku numer_rewizji```
