@@ -76,17 +76,17 @@ mapper_stmt = select([dic_table['city']]).select_from(dic_table['city'].join(dic
 print('Mapper join: ')
 print(mapper_stmt)
 
-session_stmt = q = session.query(Country).join(City)
+session_stmt = session.query(Country).join(City)
 print('\nSession join: ')
 print(session_stmt)
 ```
 
 ```sql
-Mapper select:
+Mapper join:
 SELECT city.city_id, city.city, city.country_id, city.last_update 
 FROM city JOIN country ON city.country_id = country.country_id
 
-Session select:
+Session join:
 SELECT country.country_id AS country_country_id, country.country AS country_country, country.last_update AS country_last_update 
 FROM country JOIN city ON country.country_id = city.country_id
 ```
