@@ -7,14 +7,14 @@ from DA_tools.DA_colors import LIGHT,LIGHT_HIGHLIGHT,MID,MID_HIGHLIGHT,DARK,DARK
 def is_sorted(a):
     '''Check if numpy 1d-array is sorted
     '''
-    if type(a)!=np.ndarray:
+    if type(a) != np.ndarray:
         raise TypeError('Argument must be a numpy array but is {}'.format(type(a)))
-    if len(a.shape)>1:
+    if len(a.shape) > 1:
         raise ValueError('Array must be 1 dimensional but has shape {}'.format(a.shape))
     return np.all(a[:-1] <= a[1:])
 
-def sort_1d_array_and_2d_array_by_1d_array(x,fx):
-    if (type(x)!=np.ndarray) or (type(fx)!=np.ndarray):
+def sort_1d_array_and_2d_array_by_1d_array(x, fx):
+    if (type(x) != np.ndarray) or (type(fx) != np.ndarray):
         raise TypeError('At least one of the arguments is not a numpy array type(x)={}, type(fx)={}',format(type(x),type(fx)))
     if len(x)!=fx.shape[1]:
         raise ValueError('2d array number of columns is not matching the 1d array. Expected {} got {}'.format(len(x),fx.shape[1]))
@@ -34,7 +34,7 @@ def get_quantiles(fx, probs=None):
     return np.percentile(fx, probs, axis=0)
 
 
-def ribbon_plot(x, fx, ax=None,zorder=0,probs=None):
+def ribbon_plot(x, fx, ax=None,zorder=0,probs=None,supress_warning=False):
     '''Plot a ribbon plot for regression and similar.
     Plot consists of quantiles (by 10%) of a variate (fx) as a function of covariate (x).
     x has shape (n, )
@@ -43,8 +43,8 @@ def ribbon_plot(x, fx, ax=None,zorder=0,probs=None):
     if ax is None:
         ax = plt.gca()
     if not is_sorted(x):
-        x, fx = sort_1d_array_and_2d_array_by_1d_array(x,fx)
-    if len(set(x))!=len(x):
+        x, fx = sort_1d_array_and_2d_array_by_1d_array(x, fx)
+    if (len(set(x)) != len(x)) and (not supress_warning):
         warnings.warn("x variable has repeated values, which can influence the plot")    
     perc_interv = get_quantiles(fx, probs)
     nq=perc_interv.shape[0]
