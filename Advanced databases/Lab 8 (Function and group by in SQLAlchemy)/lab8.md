@@ -5,7 +5,6 @@ The purpose of these laboratory classes is to familiarize participants with grou
 The scope of this classes:
  - using group_byg()
  - using func()
- - 
 
 ## Introduction 
 From the previous classes we know how create query to database in SQLAlchemy based on function [select](https://docs.sqlalchemy.org/en/13/core/metadata.html?highlight=select#sqlalchemy.schema.Table.select) or [query](https://docs.sqlalchemy.org/en/14/orm/query.html)
