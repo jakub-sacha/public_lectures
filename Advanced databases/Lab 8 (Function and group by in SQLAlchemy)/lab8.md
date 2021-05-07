@@ -3,7 +3,7 @@
 The purpose of these laboratory classes is to familiarize participants with group by and function in SQLAlchemy.
 
 The scope of this classes:
- - using group_byg()
+ - using group_by()
  - using func()
 
 ## Introduction 
