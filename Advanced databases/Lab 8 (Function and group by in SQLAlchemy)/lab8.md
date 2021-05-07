@@ -107,7 +107,7 @@ SQLAlchemy's [func](https://docs.sqlalchemy.org/en/14/core/functions.html) modul
 According to SQL, we can use functions in many contexts, for example:
 -  Operations on results
 ```python
-mapper_stmt = select([func.upper(dic_table['actor'].c.first_name), func.lower(dic_table['actor'].c.last_name)]
+mapper_stmt = select([func.upper(dic_table['actor'].c.first_name), func.lower(dic_table['actor'].c.last_name)])
 
 session_stmt = session.query(func.upper(Actor.first_name), func.lower(Actor.last_name))
 ```
