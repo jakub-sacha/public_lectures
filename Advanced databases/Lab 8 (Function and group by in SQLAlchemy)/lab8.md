@@ -3,9 +3,8 @@
 The purpose of these laboratory classes is to familiarize participants with group by and function in SQLAlchemy.
 
 The scope of this classes:
- - using group_byg()
+ - using group_by()
  - using func()
- - 
 
 ## Introduction 
 From the previous classes we know how create query to database in SQLAlchemy based on function [select](https://docs.sqlalchemy.org/en/13/core/metadata.html?highlight=select#sqlalchemy.schema.Table.select) or [query](https://docs.sqlalchemy.org/en/14/orm/query.html)
@@ -108,7 +107,7 @@ SQLAlchemy's [func](https://docs.sqlalchemy.org/en/14/core/functions.html) modul
 According to SQL, we can use functions in many contexts, for example:
 -  Operations on results
 ```python
-mapper_stmt = select([func.upper(dic_table['actor'].c.first_name), func.lower(dic_table['actor'].c.last_name)]
+mapper_stmt = select([func.upper(dic_table['actor'].c.first_name), func.lower(dic_table['actor'].c.last_name)])
 
 session_stmt = session.query(func.upper(Actor.first_name), func.lower(Actor.last_name))
 ```
