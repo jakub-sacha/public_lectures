@@ -34,9 +34,13 @@ This collection contains publicly available information on:
 1. Open *PostgreSQL Application Stack Builder*.
 
 2. The select server where you want to install PostGIS.
+3. 
 ![Select server](./img/instal_1.PNG)
+
 3. In section *Spatial Extensions* select PostGIS version to install.
+4. 
 ![Select server](./img/instal_3.PNG)
+
 4. Select a path to download installation file.
 
 5. Before install PostGIS close PgAdmin.
@@ -77,7 +81,9 @@ POSTGIS="3.1.1 3.1.1" [EXTENSION] PGSQL="120" GEOS="3.9.1-CAPI-1.14.1" PROJ="7.1
 ### Import spatial data to database
 
 1. Open application *PostGIS Shapefile Import/Export Manager*
+
 ![Select server](./img/import_1.PNG)
+
 2. Inicializ conection to lab10_nyc using *View connection details...*
 3. *Add File* from download [data](http://s3.cleverelephant.ca/postgis-workshop-2018.zip) with extension shp.
 A shapefile (shp) is a simple, nontopological format for storing the geometric location and attribute information of geographic features. Geographic features in a shapefile can be represented by points, lines, or polygons (areas). The workspace containing shapefiles may also contain dBASE tables, which can store additional attributes that can be joined to a shapefile's features.
@@ -92,6 +98,7 @@ Optional files include:
 - .prj—projection format; the coordinate system and projection information, a plain text file describing the projection using well-known text format
 
 4. Set data like in the image:
+
 ![Select server](./img/import_2.PNG)
 
 5. *Import* data to the database.
@@ -111,7 +118,9 @@ QGIS aims to be a user-friendly GIS, providing common functions and features. Th
 1. Open QGIS.
 2. In section *Explore* click second mouse botton on the PostGIS.
 3. Add new connection setting form on the way on the image.
+4. 
 ![Select server](./img/qgis.PNG)
+
 4. After connection open PostGIS database layer in QGIS.
 
 
