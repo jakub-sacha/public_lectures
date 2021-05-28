@@ -34,25 +34,25 @@ Examples of the selected text representations of the spatial objects (WKT ) of t
 
 In practice we can use this information to create simply table with geometry columns:
 	
-	1. In pgAdmin, open database **lab10_nyc** and run SQL Editor.	
-	2. Create table geom_example:
-	```sql 
-	CREATE TABLE geom_example (object_name varchar, geom geometry);
-	```
-	3. Because the creation of geometric objects is done by giving the constructor in text form. The commands for adding objects to table will take the form:
-	```sql
-	INSERT INTO geom_example VALUES
-		('Point', 'POINT(0 0)'),
-		('Linestring', 'LINESTRING(0 0, 1 1, 2 1, 2 2)'),
-		('Polygon', 'POLYGON((0 0, 1 0, 1 1, 0 1, 0 0))'),
-		('PolygonWithHole', 'POLYGON((0 0, 10 0, 10 10, 0 10, 0 0),(1 1, 1 2, 2 2, 2 1, 1 1))'),
-		('Collection', 'GEOMETRYCOLLECTION(POINT(2 0),POLYGON((0 0, 1 0, 1 1, 0 1, 0 0)))');
-	```
-	
-	4. To check the definition of graphical objects in the database, we can use the function *ST_AsText*:
-	```sql
-	SELECT object_name, ST_AsText(geom) FROM geom_example;
-	```
+1. In pgAdmin, open database **lab10_nyc** and run SQL Editor.	
+2. Create table geom_example:
+```sql 
+CREATE TABLE geom_example (object_name varchar, geom geometry);
+```
+3. Because the creation of geometric objects is done by giving the constructor in text form. The commands for adding objects to table will take the form:
+```sql
+INSERT INTO geom_example VALUES
+	('Point', 'POINT(0 0)'),
+	('Linestring', 'LINESTRING(0 0, 1 1, 2 1, 2 2)'),
+	('Polygon', 'POLYGON((0 0, 1 0, 1 1, 0 1, 0 0))'),
+	('PolygonWithHole', 'POLYGON((0 0, 10 0, 10 10, 0 10, 0 0),(1 1, 1 2, 2 2, 2 1, 1 1))'),
+	('Collection', 'GEOMETRYCOLLECTION(POINT(2 0),POLYGON((0 0, 1 0, 1 1, 0 1, 0 0)))');
+```
+
+4. To check the definition of graphical objects in the database, we can use the function *ST_AsText*:
+```sql
+SELECT object_name, ST_AsText(geom) FROM geom_example;
+```
 	
 ## Spatial function
 Using geometric objects in the spatial database is done by manipulating them with the functions built into the database. We should remember that with  PostGIS all functions assume the geometric type, but their operation differs depending on the represented object. Of course, this principle does not apply to other database engines of this type.
