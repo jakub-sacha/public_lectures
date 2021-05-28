@@ -60,18 +60,18 @@ Using geometric objects in the spatial database is done by manipulating them wit
 In this section, selected functions will be discussed along with their subcategories.
 
 ### Input/Output data 
--**ST_GeomFromText(text)** - returns geometry,
--**ST_AsText(geometry)** - returns WKT text,
--**ST_AsEWKT(geometry)** - returns EWKT text,
--**ST_GeomFromWKB(bytea)** - returns geometry,
--**ST_AsBinary(geometry)** - returns WKB bytea,
--**ST_AsEWKB(geometry)** - returns EWKB bytea,
--**ST_GeomFromGML(text)** - returns geometry,
--**ST_AsGML(geometry)** - returns GML text,
--**ST_GeomFromKML(text)** - returns geometry,
--**ST_AsKML(geometry)** - returns KML text,
--**ST_AsGeoJSON(geometry)** - returns JSON text,
--**ST_AsSVG(geometry)** - returns SVG text,
+- **ST_GeomFromText(text)** - returns geometry,
+- **ST_AsText(geometry)** - returns WKT text,
+- **ST_AsEWKT(geometry)** - returns EWKT text,
+- **ST_GeomFromWKB(bytea)** - returns geometry,
+- **ST_AsBinary(geometry)** - returns WKB bytea,
+- **ST_AsEWKB(geometry)** - returns EWKB bytea,
+- **ST_GeomFromGML(text)** - returns geometry,
+- **ST_AsGML(geometry)** - returns GML text,
+- **ST_GeomFromKML(text)** - returns geometry,
+- **ST_AsKML(geometry)** - returns KML text,
+- **ST_AsGeoJSON(geometry)** - returns JSON text,
+- **ST_AsSVG(geometry)** - returns SVG text,
 
 ### Data type exploration
 
