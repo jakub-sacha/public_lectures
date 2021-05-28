@@ -1,0 +1,36 @@
+method = sample (Default)
+  sample
+    num_samples = 1000 (Default)
+    num_warmup = 0
+    save_warmup = 0 (Default)
+    thin = 1 (Default)
+    adapt
+      engaged = 1 (Default)
+      gamma = 0.050000000000000003 (Default)
+      delta = 0.80000000000000004 (Default)
+      kappa = 0.75 (Default)
+      t0 = 10 (Default)
+      init_buffer = 75 (Default)
+      term_buffer = 50 (Default)
+      window = 25 (Default)
+    algorithm = fixed_param
+id = 1
+data
+  file = /var/folders/96/_4tl8xsx4tx9rj0ykk82715h0000gn/T/tmpazf8vzhk/l41fxhmh.json
+init = 2 (Default)
+random
+  seed = 29042020
+output
+  file = /Users/jerzybaranowski/GitHub/KAIR-ISZ/public_lectures/Data Analytics/Topic 7 - Generalized linear models/Dispersed poisson regresion/samples/sigma2/poisson_ppc-202105161753-1.csv
+  diagnostic_file =  (Default)
+  refresh = 1000
+  sig_figs = -1 (Default)
+  profile_file = profile.csv (Default)
+
+Iteration:   1 / 1000 [  0%]  (Sampling)
+Iteration: 1000 / 1000 [100%]  (Sampling)
+
+ Elapsed Time: 0 seconds (Warm-up)
+               0.692 seconds (Sampling)
+               0.692 seconds (Total)
+
