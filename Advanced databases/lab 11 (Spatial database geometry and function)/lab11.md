@@ -82,29 +82,29 @@ In this section, selected functions will be discussed along with their subcatego
 - **ST_NumGeometries(multi/geomcollection)** - returns the number of parts in the collection
 
 ### Geometry description
--**ST_X(geometry)** - returns the X coordinate of point,
--**ST_Y(geometry)** - returns the Y coordinate of point,
--**ST_StartPoint(geometry)** - returns the first line string coordinate as a point,
--**ST_EndPoint(geometry)** - returns the last line string coordinate as a point,
--**ST_NPoints(geometry)** - returns the number of coordinates in the line string,
--**ST_Length(geometry)** - returns the total length of all linear parts,
--**ST_Area(geometry)** - returns the total area of all polygonal parts,
--**ST_NRings(geometry)** - returns the number of rings (usually 1, more if there are holes) of polygonal,
--**ST_ExteriorRing(geometry)** - returns the outer ring as a line string of polygonal,
--**ST_InteriorRingN(geometry,n)** - returns a specified interior ring as a line string of polygonal,
--**ST_Perimeter(geometry)** - returns the length of all the rings of polygonal,
+- **ST_X(geometry)** - returns the X coordinate of point,
+- **ST_Y(geometry)** - returns the Y coordinate of point,
+- **ST_StartPoint(geometry)** - returns the first line string coordinate as a point,
+- **ST_EndPoint(geometry)** - returns the last line string coordinate as a point,
+- **ST_NPoints(geometry)** - returns the number of coordinates in the line string,
+- **ST_Length(geometry)** - returns the total length of all linear parts,
+- **ST_Area(geometry)** - returns the total area of all polygonal parts,
+- **ST_NRings(geometry)** - returns the number of rings (usually 1, more if there are holes) of polygonal,
+- **ST_ExteriorRing(geometry)** - returns the outer ring as a line string of polygonal,
+- **ST_InteriorRingN(geometry,n)** - returns a specified interior ring as a line string of polygonal,
+- **ST_Perimeter(geometry)** - returns the length of all the rings of polygonal,
 
 ### Geometry relation
--**ST_Contains(geometry A, geometry B)** - returns true if geometry A contains geometry B
--**ST_Crosses(geometry A, geometry B)** - returns true if geometry A crosses geometry B
--**ST_Disjoint(geometry A , geometry B)** - returns true if the geometries do not “spatially intersect”
--**ST_Distance(geometry A, geometry B)** - returns the minimum distance between geometry A and geometry B
--**ST_DWithin(geometry A, geometry B, radius)** - returns true if geometry A is radius distance or less from geometry B
--**ST_Equals(geometry A, geometry B)** - returns true if geometry A is the same as geometry B
--**ST_Intersects(geometry A, geometry B)** - returns true if geometry A intersects geometry B
--**ST_Overlaps(geometry A, geometry B)** - returns true if geometry A and geometry B share space, but are not completely contained by each other.
--**ST_Touches(geometry A, geometry B)** - returns true if the boundary of geometry A touches geometry B
--**ST_Within(geometry A, geometry B)** - returns true if geometry A is within geometry B
+- **ST_Contains(geometry A, geometry B)** - returns true if geometry A contains geometry B
+- **ST_Crosses(geometry A, geometry B)** - returns true if geometry A crosses geometry B
+- **ST_Disjoint(geometry A , geometry B)** - returns true if the geometries do not “spatially intersect”
+- **ST_Distance(geometry A, geometry B)** - returns the minimum distance between geometry A and geometry B
+- **ST_DWithin(geometry A, geometry B, radius)** - returns true if geometry A is radius distance or less from geometry B
+- **ST_Equals(geometry A, geometry B)** - returns true if geometry A is the same as geometry B
+- **ST_Intersects(geometry A, geometry B)** - returns true if geometry A intersects geometry B
+- **ST_Overlaps(geometry A, geometry B)** - returns true if geometry A and geometry B share space, but are not completely contained by each other.
+- **ST_Touches(geometry A, geometry B)** - returns true if the boundary of geometry A touches geometry B
+- **ST_Within(geometry A, geometry B)** - returns true if geometry A is within geometry B
 
 ## Exercises:
 1. What is the area of the: West Village, Harlem, Great Kills neighborhood?
