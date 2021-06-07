@@ -159,7 +159,7 @@ nyc_census_blocks_gpd.plot()
 
 ```
 Result:
-![Select server](./img/instal_1.PNG)
+![Select server](./img/geo_plot.png)
 
 
 ## Exercise 
