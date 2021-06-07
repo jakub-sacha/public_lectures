@@ -33,7 +33,7 @@ dic_table = {}
 for table_name in engine.table_names():
     dic_table[table_name] = Table(table_name, metadata , autoload=True, autoload_with=engine)
 	
-print(repr(dic_table['category']))
+print(repr(dic_table['nyc_neighborhoods']))
 ```
 
 If we want youse Object representation we need run script:
