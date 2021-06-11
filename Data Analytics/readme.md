@@ -33,10 +33,10 @@ Course for Automatic Control and Robotics, specialties:
 20. Typical set 
 21. $\hat{R}$ statistic
 22. Effective Sample Size
-23. ~~Hamiltonian Monte Carlo~~
-24. ~~Divergences ~~
-25. ~~Hierarchical Models ~~
-26. ~~Centered and non-centered parametrization~~
+23. NOT ON THE EXAM: Hamiltonian Monte Carlo
+24. NOT ON THE EXAM: Divergences
+25. NOT ON THE EXAM: Hierarchical Models 
+26. NOT ON THE EXAM:  Centered and non-centered parametrization
 
 ## Lectures
 
