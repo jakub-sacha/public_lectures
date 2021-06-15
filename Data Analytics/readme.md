@@ -25,7 +25,6 @@ Course for Automatic Control and Robotics, specialties:
 12. Logit regression
 13. Probit regression
 14. Poisson regression
-15. Hierarchical models
 16. Monte Carlo method
 17. Histogram 
 18. Empirical Cummulative Distribution Function
