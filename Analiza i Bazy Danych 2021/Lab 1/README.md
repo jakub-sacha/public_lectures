@@ -39,7 +39,9 @@ Wskazówki: Deklaracja [funkcji](https://www.w3schools.com/python/python_functio
 W Pythonie bloki kodu (w tym również funkcje) są wyróżniane za pomocą wcięć. Do wizualizacji wyników w Pythonie używa się pakietu [Matplotlib](https://matplotlib.org/). 
 
 Plik z rozwiązaniem opatrzonym komentarzami, dodaj do kursu na upel.agh.edu.pl
+
 # Zadanie 4
 Utwórz [dataframe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html), w którym kolumny mają nazwy: name, surname, age, sex. Uzupełnij pięcioma dowolnymi rekordami oraz wyświetl informacje o danych [pandas inf](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.info.html), opis danych [pandas describe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html), wyświetl pierwsze trzy rekordy [pandas head](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html).
+
 Plik z rozwiązaniem opatrzonym komentarzami, dodaj do kursu na upel.agh.edu.pl
 
