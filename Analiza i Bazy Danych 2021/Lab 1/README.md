@@ -1,7 +1,7 @@
 Celem zajęć jest zapoznanie się ze środowiskiem pracy na przedmiocie Analiza i Bazy Danych. 
 
 # Zadanie 1
-Instalacja wirtualnego środowiska conda na systemie Ubuntu.
+Zainstaluj wirtualne środowisko conda na systemie Ubuntu.
 
 1. Stworzenie środowiska wirtualnego, którego nazwa to imięnazwisko.
 2. Aktywacja środowiska wirtualnego.
@@ -16,7 +16,7 @@ Materiały:
 [Python Pip List Freeze](https://note.nkmk.me/en/python-pip-list-freeze/)
 
 # Zadanie 2 
-Utworzenie własnego  repozytorium do przedmiotu na github.com.
+Utwórz własne repozytorium do przedmiotu na github.com.
  
 1. Utworzenie własnego repozytorium. 
 2. Sklonowanie repozytorium.
@@ -32,9 +32,14 @@ $$f(x)=x^2+5$$
 2. $$x>-6 oraz x<6$$
 3. $$x>0 oraz x<5$$
 
-
 Wspierając się dokumentacją [Matplotlib](https://matplotlib.org/). Dodaj do wykresu etykiety osi, tytuły wykresów i legendy.
 
 Wskazówki: Deklaracja [funkcji](https://www.w3schools.com/python/python_functions.asp) w Python.
 
 W Pythonie bloki kodu (w tym również funkcje) są wyróżniane za pomocą wcięć. Do wizualizacji wyników w Pythonie używa się pakietu [Matplotlib](https://matplotlib.org/). 
+
+Plik z rozwiązaniem opatrzonym komentarzami, dodaj do kursu na upel.agh.edu.pl
+# Zadanie 4
+Utwórz [dataframe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html), w którym kolumny mają nazwy: name, surname, age, sex. Uzupełnij pięcioma dowolnymi rekordami oraz wyświetl informacje o danych [pandas inf](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.info.html), opis danych [pandas describe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html), wyświetl pierwsze trzy rekordy [pandas head](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html).
+Plik z rozwiązaniem opatrzonym komentarzami, dodaj do kursu na upel.agh.edu.pl
+
