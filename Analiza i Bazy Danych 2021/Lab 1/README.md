@@ -18,9 +18,23 @@ Materiały:
 # Zadanie 2 
 Utworzenie własnego  repozytorium do przedmiotu na github.com.
  
-1. Utworzenie własnego repozytorium 
-2. Sklonowanie repozytorium 
-3. Dodanie plików do repozytorium
-4. Wstawienie linku do repozytorium do kursu na upel.agh.edu.pl
+1. Utworzenie własnego repozytorium. 
+2. Sklonowanie repozytorium.
+3. Dodanie plików do repozytorium.
+4. Wstawienie linku do repozytorium do kursu na upel.agh.edu.pl.
 
 # Zadanie 3
+Zdefiniuj poniższą funkcję  i sporządź jej wykres dla argumentów z danego przedziału:
+
+$$f(x)=x^2+5$$ 
+
+1. $$x>-1 oraz x<1$$
+2. $$x>-6 oraz x<6$$
+3. $$x>0 oraz x<5$$
+
+
+Wspierając się dokumentacją [Matplotlib](https://matplotlib.org/). Dodaj do wykresu etykiety osi, tytuły wykresów i legendy.
+
+Wskazówki: Deklaracja [funkcji](https://www.w3schools.com/python/python_functions.asp) w Python.
+
+W Pythonie bloki kodu (w tym również funkcje) są wyróżniane za pomocą wcięć. Do wizualizacji wyników w Pythonie używa się pakietu [Matplotlib](https://matplotlib.org/). 
