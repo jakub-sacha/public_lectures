@@ -26,11 +26,11 @@ Utwórz własne repozytorium do przedmiotu na github.com.
 # Zadanie 3
 Zdefiniuj poniższą funkcję  i sporządź jej wykres dla argumentów z danego przedziału:
 
-$$f(x)=x^2+5$$ 
+$f(x)=x^2+5$ 
 
-1. $$x>-1 oraz x<1$$
-2. $$x>-6 oraz x<6$$
-3. $$x>0 oraz x<5$$
+1. $x>-1 oraz x<1$
+2. $x>-6 oraz x<6$
+3. $x>0 oraz x<5$
 
 Wspierając się dokumentacją [Matplotlib](https://matplotlib.org/). Dodaj do wykresu etykiety osi, tytuły wykresów i legendy.
 
