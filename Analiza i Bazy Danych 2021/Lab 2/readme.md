@@ -19,6 +19,6 @@ Dla przypomnienia:
  1. drinks.csv Dane i informacje: https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/
  4. earthquake_data.csv https://fivethirtyeight.com/features/the-rock-isnt-alone-lots-of-people-are-worried-about-the-big-one/ (należy zmienić nazwy kolumn i przygotować tabelę łączącą wiek, płeć i odpowiedź na pytanie "Do you think the "Big One" will occur in your lifetime?"
 
-
+Użyj [Pandas](https://pandas.pydata.org/docs/).
 
 Numer swojego datasetu uzyskujemy ze wzoru **(N mod 6) +1**, gdzie N to liczba liter w nazwisku.
