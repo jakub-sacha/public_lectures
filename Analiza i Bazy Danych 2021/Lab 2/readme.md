@@ -11,9 +11,9 @@ Dla przypomnienia:
 
 -  [TIER Protocol](https://www.projecttier.org/tier-protocol/)
 
- Mamy 6 zbiorów danych.
+ Mamy 5 zbiorów danych.
 
- 1. weather.txt - dane pogodowe (dataset opisany na wykładzie)
+ 1. weather.txt - dane pogodowe.
  3. tb.csv - dane o gruźlicy w różnych grupach pacjentów (tabela koduje jednocześnie informacje o wieku i o płci w kolumnach i zawiera dużo pustych miejsc)
  4. billboard.csv - notowania billboardu (w tabeli jest data wejścia na listę i ranking w kolejnych tygodniach, nie da się wprost odczytać rankingu w danym tygodniu kalendarzowym i jest dużo pustych miejsc)
  1. drinks.csv Dane i informacje: https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/
