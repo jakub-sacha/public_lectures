@@ -9,7 +9,7 @@ Dla przypomnienia:
   - Każda obserwacja tworzy rząd.
   - Każdy typ jednostki obserwacyjnej tworzy tabelę.
 
--  [TIER Protocol](https://www.projecttier.org/tier-protocol/)
+-  [TIER Protocol](https://www.projecttier.org/tier-protocol/tier-protocol-version-history/specifications-3-0/#overview-of-the-documentation/)
 
  Mamy 5 zbiorów danych.
 
