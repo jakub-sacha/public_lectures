@@ -41,7 +41,7 @@ W Pythonie bloki kodu (w tym również funkcje) są wyróżniane za pomocą wci�
 W pliku mają być zawarte: imię, nazwisko, opis wykonywanego ćwiczenia - formatowanie markdown w poszczególnych komórkach.
 
 # Zadanie 4
-Utwórz [dataframe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html), w którym kolumny mają nazwy: name, surname, age, sex. Uzupełnij pięcioma dowolnymi rekordami oraz wyświetl informacje o danych [pandas inf](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.info.html), opis danych [pandas describe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html), wyświetl pierwsze trzy rekordy [pandas head](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html).
+Utwórz [dataframe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html), w którym kolumny mają nazwy: name, surname, age, sex. Uzupełnij pięcioma dowolnymi rekordami oraz wyświetl informacje o danych [pandas .info()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.info.html), opis danych [pandas .describe()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html), wyświetl pierwsze trzy rekordy [pandas .head()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html).
 
 Plik z rozwiązaniem zadania 3 i zadania 4 opatrzonym komentarzami, dodaj do kursu na upel.agh.edu.pl
 
